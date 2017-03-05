@@ -14,7 +14,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 public class SecuConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.f
+        //http.
 //        http
 //                .authorizeRequests()
 //                .antMatchers("/assets/**").permitAll()
