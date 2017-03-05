@@ -6,7 +6,10 @@
 	<groupId>ru.urururu</groupId>
 	<artifactId>lokuma</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>client</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>lokuma</name>
 	<description>Demo project for Spring Boot</description>
@@ -34,6 +37,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+        </dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>4.2.2.RELEASE</version>
 		</dependency>
 	</dependencies>
 
