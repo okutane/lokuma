@@ -1,4 +1,4 @@
 [![Build Status](https://travis-ci.org/okutane/lokuma.svg?branch=master)](https://travis-ci.org/okutane/lokuma)
-[![Heroku](http://heroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat&svg=1&root=index.html)](https://lokuma.urururu.ru)
+[![Heroku](http://heroku-badge.herokuapp.com/?app=mjerilo&svg=1)](https://lokuma.urururu.ru)
 # lokuma
 Benchmark reporting &amp; storage
