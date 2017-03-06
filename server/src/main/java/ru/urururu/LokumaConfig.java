@@ -15,7 +15,7 @@ public class LokumaConfig {
 
     @Bean
     public BasicDataSource dataSource() throws URISyntaxException {
-        URI dbUri = new URI(System.getProperty("CLEARDB_DATABASE_URL"));
+        URI dbUri = new URI(System.getProperty("CLEARDB_DATABASE_URL", System.getenv("CLEARDB_DATABASE_URL")));
 
         String[] dbUriUserInfo = dbUri.getUserInfo().split(":");
         String username = dbUriUserInfo[0];
