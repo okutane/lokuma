@@ -85,7 +85,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <systemPropertyVariables>
-                        <CLEARDB_DATABASE_URL>mysql://root@localhost</CLEARDB_DATABASE_URL>
+                        <CLEARDB_DATABASE_URL>mysql://root@localhost/test</CLEARDB_DATABASE_URL>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
