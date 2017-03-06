@@ -1,4 +1,4 @@
-package ru.urururu;
+package ru.urururu.server;
 
 import org.apache.commons.dbcp.BasicDataSource;
 import org.junit.Test;

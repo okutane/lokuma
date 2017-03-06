@@ -1,3 +1,6 @@
+# Don't want to commit heroku env file
+.env
+
 *.class
 
 # Mobile Tools for Java (J2ME)
